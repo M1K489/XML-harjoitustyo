@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML 2013 Designer Edition (Trial) 11.0.8.4549 (http://www.liquid-technologies.com)-->
+<xs:schema elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Arkisto">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Peli"
+                            maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nimi"
+                                        type="xs:string" />
+                            <xs:element name="Kehittäjät">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Kehittäjä"
+                                                    maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="Huomautus"
+                                                                      type="xs:string"
+                                                                      use="optional" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Julkaisijat">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Julkaisija"
+                                                    type="julkaisija"
+                                                    maxOccurs="unbounded" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Pelisarja"
+                                        type="xs:string"
+                                        minOccurs="0"
+                                        maxOccurs="unbounded" />
+                            <xs:element name="Alustat"
+                                        type="alustat" />
+                            <xs:element name="Julkaisupäivä"
+                                        type="xs:date" />
+                            <xs:element name="Genret"
+                                        minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Genre"
+                                                    type="xs:string"
+                                                    minOccurs="0"
+                                                    maxOccurs="unbounded" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Mediat"
+                                        type="mediat" />
+                            <xs:element name="Arvostelu"
+                                        minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Arvosana"
+                                                    minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:positiveInteger">
+                                                    <xs:enumeration value="1" />
+                                                    <xs:enumeration value="2" />
+                                                    <xs:enumeration value="3" />
+                                                    <xs:enumeration value="4" />
+                                                    <xs:enumeration value="5" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="Arvio"
+                                                    type="xs:string"
+                                                    minOccurs="0" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="alustat">
+        <xs:sequence>
+            <xs:element name="Alusta"
+                        type="xs:string"
+                        maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="mediat">
+        <xs:sequence>
+            <xs:element name="Media"
+                        maxOccurs="unbounded">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="CD" />
+                        <xs:enumeration value="DVD" />
+                        <xs:enumeration value="Blu-ray" />
+                        <xs:enumeration value="Steam lataus" />
+                        <xs:enumeration value="Origin lataus" />
+                        <xs:enumeration value="Muu digitaalinen kopio" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="julkaisija">
+        <xs:sequence>
+            <xs:element name="Nimi"
+                        type="xs:string" />
+            <xs:element name="Alustat"
+                        type="alustat"
+                        minOccurs="0"
+                        maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

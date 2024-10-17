@@ -1,0 +1,48 @@
+﻿/*
+    Comment
+*/
+
+header h1 {
+    color: rgb(73, 69, 69);
+}
+
+body {
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+    width: 60%;
+    background-color: rgb(233, 229, 217);
+}
+
+p {
+    text-align: justify;
+}
+
+table td {
+   background-color: rgb(255, 255, 255);
+    padding: 0.5em;     
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(73, 69, 69);
+}
+
+table th {
+    /* fontin koon ym määrittelyä.. */
+    font-size: 1.2em;
+    height: 40px;
+    line-height: 30px;
+    margin: 0 auto 2em auto;
+ 
+    /* taustaväriksi h1-elementin taustaväri */
+    background-color: rgb(73, 69, 69);
+ 
+    /* ei näytetä palloja */
+    list-style-type: none;
+ 
+    /* pyöreät kulmat */
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+h3 {
+color: rgb(66, 126, 120);
+}

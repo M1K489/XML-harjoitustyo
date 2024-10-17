@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi" lang="fi">
+<head>
+	<title>XML - Harjoitustyö</title>
+	<link rel="stylesheet" type="text/css" href="css/tyyli.css"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+</head>
+   <body>
+<h1>XML-harjoitustyö</h1>
+    <h3>Mika Ylisirniö</h3>
+    <p>Valitsin työni aiheeksi peliarkiston ehdotetun musiikkiarkiston inspiroimana. 
+        Päätin kerätä työn esimerkkiaineistoon osan Steamistä ostamistani videopeleistä. 
+        Työhöni on vahvasti vaikuttanut Tommy Eklundin osoitteesta 
+        <a href="http://www.cs.helsinki.fi/u/tteklund/koulu/xml/xmlharkka.htm">http://www.cs.helsinki.fi/u/tteklund/koulu/xml/xmlharkka.htm</a>
+        löytyvä XML-harjoitustyö, jota olen käyttänyt mallina omaa harjoitustyötä laatiessani.</p>
+<h2>Kielen määrittely XML skeemana</h2>
+<ul>
+		<li>
+		<p><a href="Peliarkisto.xsd">Peliarkisto - xsd</a>
+		<br/>Peliarkiston Schema määrittely.
+		</p>
+		<ul>
+			<li>
+				<a href="Peliarkisto.png">Scheman rakenne</a>
+            <br/>Kuva Scheman rakenteesta.
+			</li>
+		</ul>
+		</li>
+	</ul>
+<h2>Esimerkkiaineisto</h2>
+    <ul>
+        <li>
+<p>
+    <a href="aineisto.xml">Peliarkisto - xml</a>
+</p>
+            </li>
+        </ul>
+<h2>XSLT/XQuery-tyylitiedostot</h2>
+    <ul>
+        <li>
+<p>
+    <a href="peliarkisto.xslt">Peliarkisto - xslt</a>
+<br/>XSLT-muunnostiedosto XML:ää varten, muuntaa Xhtml:ksi.
+</p>
+            </li>
+        </ul>
+<h2>Tulostiedosto</h2>
+    <p>Olen tehnyt aineistosta ainoastaan yhden dynaamisen tulostiedoston.
+        Tulostiedoston voisi kyllä hajoittaa kahteen erilliseen sivuun, joista ensimmäisessä olisi pelien yleistiedot ja toisessa tarkemmat tiedot, mutta tämä dynaaminen ratkaisu on omasta mielestäni tyylikkäämpi.</p>
+    <ul>
+        <li>
+    <a href="peliarkisto.html">Peliarkisto - xhtml</a>
+<br/>Xhtml lähdekoodi joka on generoitu peliarkisto.xslt:llä.
+            </li>
+        </ul>
+   </body>
+</html>

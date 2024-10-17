@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML 2013 Designer Edition (Trial) 11.0.8.4549 (http://www.liquid-technologies.com) -->
+<Arkisto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="Peliarkisto.xsd">
+    <Peli>
+        <Nimi>Age of Empires III</Nimi>
+        <Kehittäjät>
+            <Kehittäjä Huomautus="Original game">Ensemble Studios</Kehittäjä>
+            <Kehittäjä Huomautus="Ported game, updates">Macsoft</Kehittäjä>
+            <Kehittäjä Huomautus="Updates">Robot Entertainment</Kehittäjä>
+            <Kehittäjä Huomautus="N-Gage, Windows Mobile">Glu</Kehittäjä>
+        </Kehittäjät>
+        <Julkaisijat>
+            <Julkaisija>
+                <Nimi>Microsoft Game Studios</Nimi>
+                <Alustat>
+                    <Alusta>PC</Alusta>
+                </Alustat>
+            </Julkaisija>
+            <Julkaisija>
+                <Nimi>Macsoft, Destineer</Nimi>
+                <Alustat>
+                    <Alusta>Mac</Alusta>
+                </Alustat>
+            </Julkaisija>
+            <Julkaisija>
+                <Nimi>Glu</Nimi>
+                <Alustat>
+                    <Alusta>N-Gage</Alusta>
+                    <Alusta>Windows Mobile</Alusta>
+                </Alustat>
+            </Julkaisija>
+        </Julkaisijat>
+        <Pelisarja>Age of Empires</Pelisarja>
+        <Alustat>
+            <Alusta>Windows</Alusta>
+            <Alusta>Mac OS X</Alusta>
+            <Alusta>N-Gage</Alusta>
+            <Alusta>Windows Mobile</Alusta>
+        </Alustat>
+        <Julkaisupäivä>2005-10-18</Julkaisupäivä>
+        <Genret>
+            <Genre>RTS</Genre>
+        </Genret>
+        <Mediat>
+            <Media>Steam lataus</Media>
+        </Mediat>
+    </Peli>
+    <Peli>
+        <Nimi>Age of Empires II</Nimi>
+        <Kehittäjät>
+            <Kehittäjä Huomautus="Original game">Ensemble Studios</Kehittäjä>
+            <Kehittäjä Huomautus="HD Edition">Hidden Path Entertainment</Kehittäjä>
+        </Kehittäjät>
+        <Julkaisijat>
+            <Julkaisija>
+                <Nimi>Microsoft</Nimi>
+                <Alustat>
+                    <Alusta>Win</Alusta>
+                    <Alusta>Mac</Alusta>
+                </Alustat>
+            </Julkaisija>
+            <Julkaisija>
+                <Nimi>Konami</Nimi>
+                <Alustat>
+                    <Alusta>PS2</Alusta>
+                </Alustat>
+            </Julkaisija>
+        </Julkaisijat>
+        <Pelisarja>Age of Empires</Pelisarja>
+        <Alustat>
+            <Alusta>Windows</Alusta>
+            <Alusta>Mac OS X</Alusta>
+            <Alusta>PS2</Alusta>
+        </Alustat>
+        <Julkaisupäivä>1999-09-30</Julkaisupäivä>
+        <Genret>
+            <Genre>RTS</Genre>
+        </Genret>
+        <Mediat>
+            <Media>Steam lataus</Media>
+            <Media>DVD</Media>
+        </Mediat>
+        <Arvostelu>
+            <Arvosana>4</Arvosana>
+            <Arvio>Wanha hyvä reaaliaikastrategia, joka kokenut uuden tulemisen HD-version myötä.</Arvio>
+        </Arvostelu>
+    </Peli>
+    <Peli>
+        <Nimi>Company of Heroes</Nimi>
+        <Kehittäjät>
+            <Kehittäjä>Relic Entertainment</Kehittäjä>
+        </Kehittäjät>
+        <Julkaisijat>
+            <Julkaisija>
+                <Nimi>SEGA</Nimi>
+            </Julkaisija>
+        </Julkaisijat>
+        <Pelisarja>Company of Heroes</Pelisarja>
+        <Alustat>
+            <Alusta>Windows</Alusta>
+            <Alusta>Mac OS X</Alusta>
+        </Alustat>
+        <Julkaisupäivä>2006-09-29</Julkaisupäivä>
+        <Genret>
+            <Genre>RTS</Genre>
+        </Genret>
+        <Mediat>
+            <Media>Steam lataus</Media>
+        </Mediat>
+        <Arvostelu>
+            <Arvosana>5</Arvosana>
+            <Arvio>Kieltämättä yksi kaikkien aikojen parhaista 2. maailmansodan reaaliaikastrategioista</Arvio>
+        </Arvostelu>
+    </Peli>
+    <Peli>
+        <Nimi>Hearts of Iron III</Nimi>
+        <Kehittäjät>
+            <Kehittäjä>Paradox Development Studio</Kehittäjä>
+        </Kehittäjät>
+        <Julkaisijat>
+            <Julkaisija>
+                <Nimi>Paradox Interactive</Nimi>
+            </Julkaisija>
+        </Julkaisijat>
+        <Pelisarja>Hearts of Iron</Pelisarja>
+        <Alustat>
+            <Alusta>Windows</Alusta>
+            <Alusta>Mac OS X</Alusta>
+        </Alustat>
+        <Julkaisupäivä>2009-08-07</Julkaisupäivä>
+        <Genret>
+            <Genre>Real-time grand strategy</Genre>
+        </Genret>
+        <Mediat>
+            <Media>Steam lataus</Media>
+        </Mediat>
+        <Arvostelu>
+            <Arvosana>5</Arvosana>
+            <Arvio>MASSIIVINEN</Arvio>
+        </Arvostelu>
+    </Peli>
+    <Peli>
+        <Nimi>Magicka</Nimi>
+        <Kehittäjät>
+            <Kehittäjä>Arrowhead Game Studios</Kehittäjä>
+        </Kehittäjät>
+        <Julkaisijat>
+            <Julkaisija>
+                <Nimi>Paradox Interactive</Nimi>
+            </Julkaisija>
+        </Julkaisijat>
+        <Alustat>
+            <Alusta>Windows</Alusta>
+        </Alustat>
+        <Julkaisupäivä>2011-01-25</Julkaisupäivä>
+        <Genret>
+            <Genre>Fantasy</Genre>
+            <Genre>Action-Adventure</Genre>
+        </Genret>
+        <Mediat>
+            <Media>Steam lataus</Media>
+        </Mediat>
+        <Arvostelu>
+            <Arvosana>4</Arvosana>
+            <Arvio>Hauska ja erittäin kaunis velhoseikkailu</Arvio>
+        </Arvostelu>
+    </Peli>
+    <Peli>
+        <Nimi>Metro 2033</Nimi>
+        <Kehittäjät>
+            <Kehittäjä>4A Games</Kehittäjä>
+        </Kehittäjät>
+        <Julkaisijat>
+            <Julkaisija>
+                <Nimi>THQ</Nimi>
+            </Julkaisija>
+        </Julkaisijat>
+        <Alustat>
+            <Alusta>Windows</Alusta>
+            <Alusta>Xbox 360</Alusta>
+        </Alustat>
+        <Julkaisupäivä>2010-03-19</Julkaisupäivä>
+        <Genret>
+            <Genre>FPS</Genre>
+        </Genret>
+        <Mediat>
+            <Media>Steam lataus</Media>
+        </Mediat>
+        <Arvostelu>
+            <Arvosana>3</Arvosana>
+            <Arvio>Pelottava kauhuräiskintä, joka seuraa varsin uskollisesti kirjan juonta.</Arvio>
+        </Arvostelu>
+    </Peli>
+    <Peli>
+        <Nimi>Portal</Nimi>
+        <Kehittäjät>
+            <Kehittäjä>Valve Corporation</Kehittäjä>
+        </Kehittäjät>
+        <Julkaisijat>
+            <Julkaisija>
+                <Nimi>Valve Corporation</Nimi>
+            </Julkaisija>
+            <Julkaisija>
+                <Nimi>Microsoft Game Studios</Nimi>
+                <Alustat>
+                    <Alusta>XBLA</Alusta>
+                </Alustat>
+            </Julkaisija>
+        </Julkaisijat>
+        <Pelisarja>Portal</Pelisarja>
+        <Alustat>
+            <Alusta>Windows</Alusta>
+            <Alusta>Mac OS X</Alusta>
+            <Alusta>PS3</Alusta>
+            <Alusta>Linux</Alusta>
+            <Alusta>Xbox 360</Alusta>
+        </Alustat>
+        <Julkaisupäivä>2007-10-09</Julkaisupäivä>
+        <Genret>
+            <Genre>Puzzle-Platformer</Genre>
+        </Genret>
+        <Mediat>
+            <Media>Steam lataus</Media>
+        </Mediat>
+        <Arvostelu>
+            <Arvosana>5</Arvosana>
+        </Arvostelu>
+    </Peli>
+    <Peli>
+        <Nimi>Supreme Commander</Nimi>
+        <Kehittäjät>
+            <Kehittäjä>Gas Powered Games</Kehittäjä>
+        </Kehittäjät>
+        <Julkaisijat>
+            <Julkaisija>
+                <Nimi>THQ</Nimi>
+            </Julkaisija>
+        </Julkaisijat>
+        <Pelisarja>Supreme Commander</Pelisarja>
+        <Alustat>
+            <Alusta>Windows</Alusta>
+            <Alusta>Xbox 360</Alusta>
+        </Alustat>
+        <Julkaisupäivä>2007-02-16</Julkaisupäivä>
+        <Genret>
+            <Genre>RTS</Genre>
+        </Genret>
+        <Mediat>
+            <Media>Steam lataus</Media>
+            <Media>DVD</Media>
+        </Mediat>
+        <Arvostelu>
+            <Arvosana>5</Arvosana>
+            <Arvio>Eeppisen mittakaavan RTS-peli.</Arvio>
+        </Arvostelu>
+    </Peli>
+    <Peli>
+        <Nimi>Trine 2</Nimi>
+        <Kehittäjät>
+            <Kehittäjä>Frozenbyte</Kehittäjä>
+        </Kehittäjät>
+        <Julkaisijat>
+            <Julkaisija>
+                <Nimi>Atlus</Nimi>
+            </Julkaisija>
+        </Julkaisijat>
+        <Pelisarja>Trine</Pelisarja>
+        <Alustat>
+            <Alusta>Windows</Alusta>
+            <Alusta>Mac OS X</Alusta>
+            <Alusta>Linux</Alusta>
+            <Alusta>PSN</Alusta>
+            <Alusta>XBLA</Alusta>
+            <Alusta>Wii U eShop</Alusta>
+        </Alustat>
+        <Julkaisupäivä>2011-12-07</Julkaisupäivä>
+        <Genret>
+            <Genre>Platform</Genre>
+            <Genre>Puzzle</Genre>
+            <Genre>Action role-playing</Genre>
+        </Genret>
+        <Mediat>
+            <Media>Steam lataus</Media>
+        </Mediat>
+        <Arvostelu>
+            <Arvosana>4</Arvosana>
+            <Arvio>Kaunis ja hauska tasohyppely/ongelmanratkaisu.</Arvio>
+        </Arvostelu>
+    </Peli>
+    <Peli>
+        <Nimi>XCOM: Enemy Unknown</Nimi>
+        <Kehittäjät>
+            <Kehittäjä>Firaxis Games</Kehittäjä>
+            <Kehittäjä Huomautus="Mac">Feral Interactive</Kehittäjä>
+        </Kehittäjät>
+        <Julkaisijat>
+            <Julkaisija>
+                <Nimi>2K Games</Nimi>
+            </Julkaisija>
+            <Julkaisija>
+                <Nimi>Feral Interactive</Nimi>
+                <Alustat>
+                    <Alusta>Mac OS X</Alusta>
+                </Alustat>
+            </Julkaisija>
+        </Julkaisijat>
+        <Pelisarja>X-Com</Pelisarja>
+        <Alustat>
+            <Alusta>Windows</Alusta>
+            <Alusta>Mac OS X</Alusta>
+            <Alusta>PS3</Alusta>
+            <Alusta>Xbox 360</Alusta>
+            <Alusta>iOS</Alusta>
+        </Alustat>
+        <Julkaisupäivä>2012-10-09</Julkaisupäivä>
+        <Genret>
+            <Genre>Turn-based tactics</Genre>
+            <Genre>Strategy</Genre>
+        </Genret>
+        <Mediat>
+            <Media>Steam lataus</Media>
+        </Mediat>
+        <Arvostelu>
+            <Arvosana>5</Arvosana>
+            <Arvio>Vanhan klassikon loistava uudestisyntyminen.</Arvio>
+        </Arvostelu>
+    </Peli>
+</Arkisto>
